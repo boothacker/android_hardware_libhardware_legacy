@@ -1,0 +1,4 @@
+cd hardware/libhardware_legacy
+git remote add master https://github.com/boothacker/android_hardware_libhardware_legacy
+git fetch master 
+git cherry-pick 1d2c08aa590aa694e8c76f0d9b70afe5892f8063
